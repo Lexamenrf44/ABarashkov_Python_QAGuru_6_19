@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "abarashkov-python-qaguru-6-19-poetry-project"
+version = "0.1.0"
+description = "qaguru_6_19_home_assignment"
+authors = ["ABarashkov <alexander.stcstudent@gmail.com>"]
+readme = "README.md"
+packages = [{include = "abarashkov_python_qaguru_6_19_poetry_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.0rc4"
+pytest = "^7.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
